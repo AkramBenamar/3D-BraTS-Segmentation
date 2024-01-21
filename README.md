@@ -1,3 +1,5 @@
+<div style="text-align: justify;">
+
 # 3D-BraTS-Segmentation
 
 # Résumé :
@@ -134,6 +136,7 @@ Voici quelques exemples de segmentations obtenus (voir tout l’ensemble de vali
 
 ![Texte alternatif](exmples.PNG)
  
+</div>
  
  
  
