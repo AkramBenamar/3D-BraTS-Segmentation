@@ -13,24 +13,8 @@ Chaque IRM est segmentée en 4 classes : arrière-plan, œdème, nécrose et tum
 
 Voici un tableau qui montre les dernières versions du dataset BraTS, nous allons utiliser celui de 2021 qui est le plus récent disponible :
 
-Year	Total data	Training data	Validation data	Testing data	Tasks
-2012	50	35	/	15	Segmentation
-2013	60	35	/	25	Segmentation
-2014	238	200	/	38	Segmentation
-2015	253	200	/	53	Segmentation
-Disease progression
-2016	391	200	/	191	Segmentation
-Survival prediction
-2017	477	285	46	146	Segmentation
-Survival prediction
-2018	542	285	66	191	Segmentation
-Survival prediction
-2019	626	335	125	166	Segmentation
-Survival prediction
-2020	660	369	125	166	Segmentation
-Survival prediction
-2021	2000	1251	211	538	Segmentation
-MGMT classification
+![Texte alternatif](dataset.PNG)
+
 
 Toutes les exécutions d’entrainement de notre modèle ont été effectué à l’aide de « Kaggle ». C’est une plateforme en ligne qui permet d’écrire des programmes en langage Python et offre des outils pour le calcul à haute performance avec un accès gratuit aux GPUs. 
 Nous avons utilisé le Nvidia P100 avec 30 Go de disque en exécution hors ligne s’appuie sur la technologie Turing révolutionnaire à coeurs Tensor pour offrir des performances de calcul multi-précision avec une grande variété de charges de travail. 
