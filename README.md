@@ -27,7 +27,7 @@ Voici un tableau qui montre les dernières versions du dataset BraTS, nous allon
 
 </center>
 
-
+https://www.bing.com/ck/a?!&&p=6232ba64b411640eJmltdHM9MTcwNTc5NTIwMCZpZ3VpZD0yM2RjZjllMy02OTMzLTY0ZWMtMTJkZS1lYjhkNjhkODY1OGImaW5zaWQ9NTIwMQ&ptn=3&ver=2&hsh=3&fclid=23dcf9e3-6933-64ec-12de-eb8d68d8658b&psq=brats+dataset&u=a1aHR0cHM6Ly93d3cua2FnZ2xlLmNvbS9kYXRhc2V0cy9kc2NoZXR0bGVyODg0NS9icmF0cy0yMDIxLXRhc2sx&ntb=1
 
 Toutes les exécutions d’entrainement de notre modèle ont été effectué à l’aide de « Kaggle ». C’est une plateforme en ligne qui permet d’écrire des programmes en langage Python et offre des outils pour le calcul à haute performance avec un accès gratuit aux GPUs. 
 Nous avons utilisé le Nvidia P100 avec 30 Go de disque en exécution hors ligne s’appuie sur la technologie Turing révolutionnaire à coeurs Tensor pour offrir des performances de calcul multi-précision avec une grande variété de charges de travail. 
