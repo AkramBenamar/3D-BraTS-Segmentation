@@ -1,6 +1,6 @@
 <div style="text-align: justify;">
 
-# 3D-BraTS-Segmentation
+# U-net 3D pour la segmentation des tumeurs cérébrales avec fusion multimodale tardive
 
 # Résumé :
 
