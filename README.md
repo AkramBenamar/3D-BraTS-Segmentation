@@ -1,12 +1,12 @@
 # 3D-BraTS-Segmentation
 
-Résumé :
+# Résumé :
 La segmentation précise, rapide et automatique des gliomes dans les examens d'imagerie par résonance magnétique (IRM) du cerveau reste, jusqu'à nos jours, une tâche difficile en raison de la variabilité des formes, des positions et des intensités d'image des tumeurs. Dans ce projet, nous présentons une méthode de segmentation automatique des sous-régions de tumeurs cérébrales avec fusion tardive basée sur un modèle U-Net 3D qui détecte et extrait automatiquement les sous-régions de gliomes de haut et de bas grade (HGG et LGG).  y compris la nécrose, l'œdème et la tumeur active, dans les volumes d'IRM cérébrale multimodale des ensembles de données BraTS'2022. Le modèle proposé a été testé et évalué sur les ensembles de données de formation et de validation BraTS'2022, y compris un total de 5 880 IRM cérébrales correspondant à 1 470 sujets différents, HGG et LGG représentant différentes tailles, formes, positions et dans tensions. Les dice score pour Enhancing tumor (ET), de la tumeur entière (WT) et du noyau tumoral (TC) ont atteint respectivement 0,56, 0,79 et 0,61 sur 20 % de l'ensemble de données d'entraînement. 
 
-Introduction :
+# Introduction :
 Dans ce projet nous allons entrainer 4 modèles Unet 3D (un modèle par modalité) sur l’ensemble de données BraTS qui met en disposition des images IRM 3D avec 4 modalités pour chaque cas. Le but est de segmenter les trois composantes des tumeurs cérébrales (ET , TC et ED (edema)) en effectuant une fusion tardive des 4 prédictions des 4 modèles entrainés.
 
-Dataset et environnement :
+# Dataset et environnement :
 BraTS met en disposition un ensemble de données IRM 3D déjà prétraité avec une dimension volumique de (240 x 240 x 155). Chaque donnée IRM est constituée des quatre modalités d’acquisition de l’IRM (T1, T1Ce, T2, FLAIR) accompagnées de la vérité terrain (GT).
  
 Chaque IRM est segmentée en 4 classes : arrière-plan, œdème, nécrose et tumeur active. Tous les scans IRM multimodaux de BraTS sont disponibles sous forme de fichiers NIfTI (.nii.gz).
