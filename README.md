@@ -157,6 +157,23 @@ Voici quelques exemples de segmentations obtenus (voir tout l’ensemble de vali
 
 ![Texte alternatif](exmples.PNG)
 
+# Code source
+ce répo contient deux notebook, un pour l'entrainement des modèles Unet 3DFuseUnet.ipynb, il faut choisir le channel en changeant
+la variable FUSECHANNEL
+<ul>
+	<li>T1 => FUSECHANNEL=0</li>
+	<li>T2 => FUSECHANNEL=1</li>
+	<li>T1ce => FUSECHANNEL=2</li>
+	<li>Flair => FUSECHANNEL = 3</li>
+</ul>
+il faut d'abord fournir les bon input en donnant le lien suivant  : https://drive.google.com/file/d/1I6hsGP3i6P3WLjxW0im00iTmkXlYODj1/view?usp=sharing
+
+une fois le notebook en kaggle du unet fini, il faut récuperer le lien de results avec le nom de version donnée dans le notebook et executer les codes de setup_kaggle_colab.ipynb afin de zipper results en drive.
+on peut effectuer plusieurs executions tel que chaque execution comporte 10 epochs.
+
+Nous avons aussi un notebook de validation qui comporte la fusion tardive ainsi que l'évaluation qualitative: 
+
+https://colab.research.google.com/drive/1EBZRkCwhVAUQi7BKf7_mOdpPWuYOFgV1?usp=sharing )
 </div>
  
  
